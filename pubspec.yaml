@@ -1,0 +1,40 @@
+name: example
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^13.0.0
+  flutter_native_timezone: ^2.0.0
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+  timezone: ^0.9.1
+  webview_flutter: ^4.0.4
+  story_view: ^0.14.0
+  pinput: ^2.2.31
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  leancode_lint: ^3.0.0
+  patrol:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+patrol:
+  app_name: Patrol example
+  android:
+    package_name: pl.leancode.patrol.example
+  ios:
+    bundle_id: pl.leancode.patrol.Example
