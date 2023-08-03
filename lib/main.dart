@@ -1,4 +1,4 @@
-import 'package:example/pinput_ui.dart';
+import 'package:example/image_select.ui.dart';
 import 'package:flutter/material.dart';
 import 'package:story_view/story_view.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: PinPage());
+        home: PickImagePage());
   }
 }
 
